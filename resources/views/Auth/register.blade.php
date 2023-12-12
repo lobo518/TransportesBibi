@@ -45,7 +45,7 @@
       @enderror
     </div>
 
-    <input class="btn btn-primary my-2" type="submit" value="Crear cuenta">
+    <input class="btn btn-danger my-2" type="submit" value="Crear cuenta">
   </form>
 </div>
 

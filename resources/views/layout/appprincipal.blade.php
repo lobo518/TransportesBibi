@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Productos</title>
+  <title>Transportes Bibi</title>
 
   <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
@@ -13,7 +13,8 @@
 
 </head>
 
-<body>
+<body style="background-image:url('/img/camionrojo.png');
+    background-size: cover;    background-repeat: no-repeat;">
   @include('partials.menuprincipal')
 
 
