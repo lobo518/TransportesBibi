@@ -12,7 +12,7 @@ class RegistroController extends Controller
 {
   public function index()
   {
-    return view('auth.register');
+    return view('Auth.register');
   }
 
   public function store(Request $request)

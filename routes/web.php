@@ -24,7 +24,7 @@ Route::get('/', function () {
 });
 
 Route::get('/trayecto', function () {
-  return view('construccion');
+  return view('trayecto');
 });
 
 Route::get('/galeria', function () {
