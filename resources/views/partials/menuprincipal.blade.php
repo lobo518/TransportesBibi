@@ -10,13 +10,13 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
 
         <li class="nav-item">
-          <a class="nav-link active " aria-current="page" href="#"><span class="texto-blanco">Trayecto</span></a>
+          <a class="nav-link active " aria-current="page" href="trayecto"><span class="texto-blanco">Trayecto</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active " aria-current="page" href="#"><span class="texto-blanco">Galeria</span></a>
+          <a class="nav-link active " aria-current="page" href="galeria"><span class="texto-blanco">Galeria</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active " aria-current="page" href="#"><span class="texto-blanco">Contacto</span></a>
+          <a class="nav-link active " aria-current="page" href="contacto"><span class="texto-blanco">Contacto</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link active " aria-current="page" href="{{route('loginIndex')}}"><span class="texto-blanco">Iniciar sesión</span></a>
