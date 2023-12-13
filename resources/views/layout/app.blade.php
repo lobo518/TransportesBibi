@@ -11,6 +11,41 @@
 
   @vite(['resources/js/app.js'])
 
+  <style>
+    html {
+      min-height: 100%;
+      position: relative;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      /* 100% del viewport height */
+      margin: 0;
+      /* Eliminar márgenes predeterminados del cuerpo */
+    }
+
+    footer {
+      background-color: #dc3545;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 40px;
+      color: white;
+    }
+
+    footer p {
+
+      color: #f3f3f3;
+
+    }
+  </style>
+
 </head>
 
 <body>
@@ -40,7 +75,18 @@
 
   @yield('container')
 
+
+  <footer class="w-100 d-flex justify-content-center align-items-center">
+    <p class="fs-5 px-3 pt-3">
+      Transportes Bibi &copy; Todos los derechos reservados 2023
+    </p>
+
+
+  </footer>
+
   @yield('js')
+
+
 </body>
 
 </html>

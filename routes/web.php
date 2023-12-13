@@ -33,7 +33,7 @@ Route::get('/galeria', function () {
 
 
 Route::get('/contacto', function () {
-  return view('construccion');
+  return view('contacto');
 });
 
 
